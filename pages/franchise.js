@@ -3,12 +3,10 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Nav from '../components/nav';
 import Layout from '../components/layout';
-import HeroBanner from '../components/heroBanner';
 import FranchisePageContent from '../components/franchisePageContent';
-const Home = () => (
+
+export default () => (
   <Layout>
     <FranchisePageContent />
   </Layout>
 );
-
-export default Home;

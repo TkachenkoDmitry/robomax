@@ -7,55 +7,15 @@
     text-align: center;
     margin: 0;
   }
-  //   > div {
-  //     position: relative;
-  //     display: grid;
-  //     overflow: hidden;
-  //     border-radius: 6px;
-  //     box-shadow: 1px 1px 6px #00000080;
-  //     transition: all 0.25s ease-in-out;
-  //     > h2 {
-  //       text-align: center;
-  //       font-size: 1.5rem;
-  //       padding: 0 1.5rem;
-  //     }
-  //     img {
-  //       height: 300px;
-  //       width: auto;
-  //       justify-self: center;
-  //     }
-  //     &:hover {
-  //       // box-shadow: 0px 0px 12px 0px $orange;
-  //       .hoverable {
-  //         // display: flex;
-  //         transform: translateY(0);
-  //         transition: all 0.25s ease-in-out;
-  //       }
-  //       // transform: scale(1.05) translate(-5px, -10px);
-  //     }
-  //     .hoverable {
-  //       display: flex;
-  //       padding: 0 1.5rem;
-  //       position: absolute;
-  //       align-items: center;
-  //       height: 100%;
-  //       background-color: #ee9c0080;
-  //       top: 0;
-  //       left: 0;
-  //       font-weight: 500;
-  //       transform: translateY(-100%);
-  //       transition: all 0.5s ease;
-  //     }
-  //   }
   > div {
     display: grid;
+    gap: 1.5rem;
     grid-template-columns: 1fr 1fr;
     border-radius: 6px;
     padding: 1.5rem;
-    box-shadow: 1px 1px 6px #00000080;
-    h2,
-    p {
-      margin: 0;
+    box-shadow: 1px 1px 6px #28323c80;
+    h2 {
+      font-size: 1.5rem;
     }
     img {
       grid-column: 2;
