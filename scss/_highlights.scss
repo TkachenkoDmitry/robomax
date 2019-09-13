@@ -1,0 +1,16 @@
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 3rem;
+  div {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 1.5rem;
+    img {
+      height: 3rem;
+    }
+    text-align: center;
+  }
+}

@@ -1,0 +1,22 @@
+.two-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.column-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 3rem 1.5rem;
+  img {
+    height: 3rem;
+  }
+  .vertical & {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    img {
+      height: auto;
+    }
+  }
+}

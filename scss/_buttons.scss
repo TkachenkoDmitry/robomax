@@ -1,0 +1,13 @@
+.button {
+  display: inline-block;
+  background-color: $orange;
+  border: 1px solid $orange;
+  padding: 0.9375rem 3rem;
+  border-radius: 6px;
+  color: #fff;
+  text-transform: capitalize;
+  &:hover {
+    background-color: #fff;
+    color: $orange;
+  }
+}
