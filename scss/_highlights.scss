@@ -6,6 +6,7 @@
   div {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 3rem auto;
     justify-items: center;
     gap: 1.5rem;
     img {

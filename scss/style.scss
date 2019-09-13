@@ -210,19 +210,44 @@ p {
   gap: 3rem 1.5rem;
   justify-items: center;
   div {
+    overflow: hidden;
     display: grid;
     box-shadow: 1px 1px 6px #28323c80;
     border-radius: 6px;
     padding: 2rem;
-    picture {
-      justify-self: center;
-      width: calc(100% / 3);
+    gap: 1.5rem;
+    grid-template-rows: 6rem auto;
+    p {
+      transform: translateY(100%);
+      opacity: 0;
+      transition: all 0.5s ease;
     }
     img {
       width: 100%;
+      height: auto;
+      transition: all 0.5s ease;
     }
     h3 {
       justify-self: center;
+      text-align: center;
+      grid-row: -1 / span 2;
+      transition: all 0.5s ease;
+    }
+    &:hover {
+      align-content: start;
+      // grid-template-rows: 6rem auto;
+      h3 {
+        grid-row: 2;
+        transition: all 0.5s ease;
+      }
+      picture {
+        justify-self: center;
+        width: calc(100% / 3);
+      }
+      p {
+        transform: translate(0);
+        opacity: 1;
+      }
     }
   }
 }

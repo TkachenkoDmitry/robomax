@@ -9,7 +9,14 @@ const franchisePageContent = () => {
       <article className='content'>
         <section className='titled-section'>
           <div className='section-title'>
-            <h1>Buy my shit fast kindly!!!!</h1>
+            <h1>О НАС</h1>
+            <p>
+              ROBOMAX – это удивительные роботы с искусственным интеллектом,
+              применимые в самых различных сферах (b2b / b2c), а наша франшиза –
+              это ваша возможность получать стабильный и прогнозируемый доход
+              под контролем опытной и успешной команды.
+            </p>
+            <h3>Наша компания работает в двух направлениях:</h3>
           </div>
           <div className='two-columns vertical'>
             <div className='column-item'>
@@ -18,8 +25,8 @@ const franchisePageContent = () => {
                 <img src='./static/images/loan-icon.png' alt='icon' />
               </picture>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
-                tenetur possimus asperiores, accusantium maiores debitis?
+                Аренда роботов с искусственным интеллектом. (Мы помогаем бизнесу
+                расти,
               </p>
             </div>
             <div className='column-item'>
@@ -27,20 +34,55 @@ const franchisePageContent = () => {
                 <source type='image/svg' />
                 <img src='./static/images/loan-icon.png' alt='icon' />
               </picture>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
-                tenetur possimus asperiores, accusantium maiores debitis?
-              </p>
+              <p>Проведение образовательных мероприятий</p>
             </div>
+          </div>
+          <p>
+            Каждое направление – отдельная и финансово независимая деятельность.
+          </p>
+        </section>
+        <section className='titled-section'>
+          <div className='section-title'>
+            <h2>АРЕНДА РОБОТОВ</h2>
+          </div>
+          <div className='large-card'>
+            <picture>
+              <source type='image/svg' />
+              <img alt='icon' src='../static/images/help-circle.svg' />
+            </picture>
+            <p>
+              Мы помогаем бизнесу расти с помощью предоставления роботов с
+              искусственным интеллектом. Работа по сдаче роботов в аренду
+              ведется через маркетинговые и event-агентства, что позволяет в
+              кротчайшие сроки собрать большой пул заказов и ускорить
+              окупаемость франшизы. Высокий спрос среди заказчиков – юридических
+              лиц позволяет обеспечить высокую ежедневную загруженность каждого
+              робота.
+            </p>
           </div>
         </section>
         <section className='titled-section'>
           <div className='section-title'>
-            <h2>Configuration</h2>
+            <h2>ОБРАЗОВАТЕЛЬНАЯ ДЕЯТЕЛЬНОСТЬ</h2>
+          </div>
+          <div className='large-card'>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-              facilis expedita facere?
+              Нами были разработаны образовательные курсы, основной тематикой
+              которых является детская безопасность. Робот-учитель позволяет
+              приковать внимание детей к теме занятия, благодаря чему дети
+              запоминают всю информацию и будут готовы применить ее на практике
+              в случае необходимости. Уроки проводятся на базе школ, а конверсия
+              в показы составляет свыше 80%
             </p>
+            <picture>
+              <source type='image/svg' />
+              <img alt='icon' src='../static/images/help-circle.svg' />
+            </picture>
+          </div>
+        </section>
+        <section className='titled-section'>
+          <div className='section-title'>
+            <h2>ПРЕИМУЩЕСТВА ФРАНШИЗЫ ROBOMAX</h2>
           </div>
           <div className='two-columns'>
             <div className='column-item'>
@@ -48,10 +90,28 @@ const franchisePageContent = () => {
                 <source type='image/svg' />
                 <img alt='icon' src='../static/images/help-circle.svg' />
               </picture>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                modi magni reprehenderit!
-              </p>
+              <p>Новый, современный и востребованный продукт</p>
+            </div>
+            <div className='column-item'>
+              <picture>
+                <source type='image/svg' />
+                <img alt='icon' src='../static/images/help-circle.svg' />
+              </picture>
+              <p>Критично низкая конкуренция или ее полное отсутствие</p>
+            </div>
+            <div className='column-item'>
+              <picture>
+                <source type='image/svg' />
+                <img alt='icon' src='../static/images/help-circle.svg' />
+              </picture>
+              <p>Высокий доход с каждого робота</p>
+            </div>
+            <div className='column-item'>
+              <picture>
+                <source type='image/svg' />
+                <img alt='icon' src='../static/images/help-circle.svg' />
+              </picture>
+              <p>Небольшие вложения</p>
             </div>
             <div className='column-item'>
               <picture>
@@ -59,8 +119,8 @@ const franchisePageContent = () => {
                 <img alt='icon' src='../static/images/help-circle.svg' />
               </picture>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                modi magni reprehenderit!
+                Личный специалист по сопровождению, который также займется
+                продвижением робота в вашем регионе
               </p>
             </div>
             <div className='column-item'>
@@ -68,83 +128,26 @@ const franchisePageContent = () => {
                 <source type='image/svg' />
                 <img alt='icon' src='../static/images/help-circle.svg' />
               </picture>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                modi magni reprehenderit!
-              </p>
-            </div>
-            <div className='column-item'>
-              <picture>
-                <source type='image/svg' />
-                <img alt='icon' src='../static/images/help-circle.svg' />
-              </picture>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                modi magni reprehenderit!
-              </p>
+              <p>Окупаемость – до 8 месяцев.</p>
             </div>
           </div>
         </section>
         <section className='titled-section'>
           <div className='section-title'>
-            <h2>Tech support</h2>
+            <h2>ФИНАНСОВЫЕ ПОКАЗАТЕЛИ</h2>
             <strong>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Provident suscipit consectetur incidunt atque id fugiat tempora et
-              facilis asperiores porro?
+              Оставьте Ваши контактные данные и получите подробную финансовую
+              модель нашей франшизы, основанную на реальных показателях.
             </strong>
+            <ContactForm />
           </div>
-          <div className='large-card'>
-            <picture>
-              <source type='image/svg' />
-              <img alt='icon' src='../static/images/help-circle.svg' />
-            </picture>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur recusandae labore laudantium incidunt culpa eligendi
-              rem fugit a, quo, ut tenetur vel nesciunt distinctio doloribus
-              aut. Consequuntur nihil excepturi facilis modi unde odit,
-              molestiae illum eos deserunt harum saepe, quam praesentium minima
-              debitis laboriosam ipsa?
-            </p>
-          </div>
-        </section>
-        <section className='titled-section'>
-          <div className='section-title'>
-            <h2>Tech support</h2>
-            <strong>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Provident suscipit consectetur incidunt atque id fugiat tempora et
-              facilis asperiores porro?
-            </strong>
-          </div>
-          <div className='large-card'>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur recusandae labore laudantium incidunt culpa eligendi
-              rem fugit a, quo, ut tenetur vel nesciunt distinctio doloribus
-              aut. Consequuntur nihil excepturi facilis modi unde odit,
-              molestiae illum eos deserunt harum saepe, quam praesentium minima
-              debitis laboriosam ipsa?
-            </p>
-            <picture>
-              <source type='image/svg' />
-              <img alt='icon' src='../static/images/help-circle.svg' />
-            </picture>
-          </div>
-        </section>
-        <section className='titled-section'>
-          <div className='section-title'>
-            <h2>Tech support</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-              itaque rem esse doloremque! Odio pariatur velit mollitia culpa
-              architecto. Minima.
-            </p>
-          </div>
-          <ContactForm />
         </section>
       </article>
+      <section className='titled-section'>
+        <div className='section-title'>
+          <h2>TIMELINE SPIZDET'</h2>
+        </div>
+      </section>
     </>
   );
 };
