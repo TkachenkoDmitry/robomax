@@ -114,10 +114,10 @@ const homePageContent = () => {
       </section>
       <section className='titled-section'>
         <div className='section-title'>
-          <h2>Configuration</h2>
+          <h2>КОНФИГУРАЦИЯ</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facilis
-            expedita facere?
+            Каждый робот оснащен богатым функционалом и наделен огромным
+            количеством возможностей, например:
           </p>
         </div>
         <div className='two-columns'>
@@ -127,8 +127,8 @@ const homePageContent = () => {
               <img alt='icon' src='../static/images/help-circle.svg' />
             </picture>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed modi
-              magni reprehenderit!
+              Загружайте ваше программное обеспечение и используйте его на базе
+              робота
             </p>
           </div>
           <div className='column-item'>
@@ -137,8 +137,8 @@ const homePageContent = () => {
               <img alt='icon' src='../static/images/help-circle.svg' />
             </picture>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed modi
-              magni reprehenderit!
+              Запоминание любых локаций и ориентация внутри них с помощью
+              встроенных сенсоров
             </p>
           </div>
           <div className='column-item'>
@@ -146,10 +146,7 @@ const homePageContent = () => {
               <source type='image/svg' />
               <img alt='icon' src='../static/images/help-circle.svg' />
             </picture>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed modi
-              magni reprehenderit!
-            </p>
+            <p>Распознавание лиц и ведение разных диалогов с разными людьми</p>
           </div>
           <div className='column-item'>
             <picture>
@@ -157,26 +154,20 @@ const homePageContent = () => {
               <img alt='icon' src='../static/images/help-circle.svg' />
             </picture>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed modi
-              magni reprehenderit!
+              Синтез человеческой речи: способность воспроизводить голос
+              человека через робота
             </p>
           </div>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa cumque
-          temporibus exercitationem minus accusamus incidunt, nostrum aperiam
-          magnam, sapiente minima excepturi animi quam iure beatae? Cupiditate
-          illo animi error unde?
+          По индивидуальному техническому заданию наша компания может
+          разработать для вас уникальное программное обеспечение, отвечающее
+          всем вашим требованиям!
         </p>
       </section>
       <section className='titled-section'>
         <div className='section-title'>
-          <h2>Tech support</h2>
-          <strong>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident
-            suscipit consectetur incidunt atque id fugiat tempora et facilis
-            asperiores porro?
-          </strong>
+          <h2>ТЕХНИЧЕСКАЯ ПОДДЕРЖКА</h2>
         </div>
         <div className='large-card'>
           <picture>
@@ -184,12 +175,20 @@ const homePageContent = () => {
             <img alt='icon' src='../static/images/help-circle.svg' />
           </picture>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-            recusandae labore laudantium incidunt culpa eligendi rem fugit a,
-            quo, ut tenetur vel nesciunt distinctio doloribus aut. Consequuntur
-            nihil excepturi facilis modi unde odit, molestiae illum eos deserunt
-            harum saepe, quam praesentium minima debitis laboriosam ipsa?
+            Техническая поддержка в области настройки и эксплуатации роботов
+            осуществляется бесплатно для каждого заказчика.
           </p>
+        </div>
+        <div className='large-card'>
+          <p>
+            Мы обладаем собственным сервисным центром и готовы оперативно
+            заменить любые части вашего робота для его скорейшего
+            восстановления.
+          </p>
+          <picture>
+            <source type='image/svg' />
+            <img alt='icon' src='../static/images/help-circle.svg' />
+          </picture>
         </div>
       </section>
       <ContactForm />
