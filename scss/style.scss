@@ -71,7 +71,7 @@ main {
 
 .content {
   display: grid;
-  grid-template-columns: 1fr 1200px 1fr;
+  grid-template-columns: 1fr $content-width 1fr;
   grid-auto-rows: max-content;
   gap: 6rem;
   > * {
@@ -148,6 +148,7 @@ p {
   background-color: $orange;
   border-radius: 6px;
   overflow: hidden;
+  box-shadow: 1px 1px 6px #28323c80;
   > div {
     background-color: #fff;
     display: grid;
@@ -157,9 +158,9 @@ p {
   }
   form {
     // border: solid 1px $black;
-    border-radius: 6px;
-    padding: 3rem;
-    box-shadow: 1px 1px 6px #28323c80;
+    // border-radius: 6px;
+    // padding: 3rem;
+    // box-shadow: 1px 1px 6px #28323c80;
   }
 }
 
@@ -232,7 +233,7 @@ p {
 }
 .full-bleed {
   display: grid;
-  grid-template-columns: 1fr 1200px 1fr;
+  grid-template-columns: 1fr $content-width 1fr;
   grid-column: 1/-1;
   background-color: cyan;
   &.contact {
