@@ -1,0 +1,82 @@
+form {
+  .Field {
+    position: relative;
+    margin-bottom: 48px;
+  }
+
+  .Label {
+    font-family: 'Hind';
+    font-size: 18px;
+    line-height: 24px;
+    transition: transform 0.3s, font-size 0.3s;
+    position: relative;
+    width: 100%;
+    display: block;
+    color: #c9ced3;
+  }
+
+  .Input {
+    outline: none;
+    position: absolute;
+    z-index: 0;
+    border: none;
+    background-image: none;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid #dae1e7;
+    text-indent: -9999px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #c9ced3;
+    display: block;
+    width: 100%;
+    box-shadow: none;
+    border-radius: 0;
+    background-color: transparent;
+  }
+
+  .Input:focus + .Label,
+  .Input:active + .Label,
+  .HasValue + .Label {
+    transform: translate3d(0px, -24px, 0);
+    font-size: 14px;
+  }
+
+  .Input:focus,
+  .Input:active {
+    border-color: #323c46;
+    color: #323c46;
+  }
+
+  .Input:focus,
+  .Input:active,
+  .HasValue {
+    color: #323c46;
+    text-indent: 0;
+    text-indent: 0;
+  }
+
+  .Field span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #c9ced3;
+  }
+
+  .Field span.text {
+    color: #323c46;
+  }
+
+  .ErrorMessage {
+    color: #ff4081;
+    position: absolute;
+    font-size: 18px;
+    bottom: -30px;
+  }
+
+  .Invalid {
+    border-color: #ff4081;
+  }
+}
